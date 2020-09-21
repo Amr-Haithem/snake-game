@@ -11,7 +11,7 @@ const gameBoard= document.getElementById('game-board')
 
 function main(currentTime){
     if(gameOver){
-        if(confirm("You are stupid.Press OK to waste time again?")){
+        if(confirm("You can do it.Press OK to play again?")){
             window.location.reload()
         }
 
